@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/galleryFragment"
-        android:name="com.nanmu.gallery.GalleryFragment"
-        android:label="gallery"
+        android:name="com.demo.pagergallery.GalleryFragment"
+        android:label="Gallery"
         tools:layout="@layout/fragment_gallery">
         <action
             android:id="@+id/action_galleryFragment_to_pagerPhotoFragment"
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/pagerPhotoFragment"
-        android:name="com.nanmu.gallery.PagerPhotoFragment"
-        android:label="pagerPhoto"
+        android:name="com.demo.pagergallery.PagerPhotoFragment"
+        android:label="PagerPhoto"
         tools:layout="@layout/fragment_pager_photo" />
 </navigation>
